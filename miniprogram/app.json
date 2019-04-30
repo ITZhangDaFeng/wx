@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/news/news",
+    "pages/clansmanActivity/clansmanActivity",
+    "pages/functions/functions",
+    "pages/donation/donation"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "张氏宗族",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/shouye.png",
+      "selectedIconPath": "images/zhuye.png"
+    },{
+      "pagePath": "pages/news/news",
+      "text": "新闻",
+      "iconPath": "images/xiaoxi.png",
+      "selectedIconPath": "images/xinxi.png"
+    },{
+      "pagePath": "pages/clansmanActivity/clansmanActivity",
+      "text": "宗族活动",
+      "iconPath": "images/zuzhiqunzu.png",
+      "selectedIconPath": "images/zuzhiqunzu.png"
+    },{
+      "pagePath": "pages/functions/functions",
+      "text": "职责",
+      "iconPath": "images/fangke.png",
+      "selectedIconPath": "images/fangke.png"
+    },{
+      "pagePath": "pages/donation/donation",
+      "text": "捐款",
+      "iconPath": "images/aixin.png",
+      "selectedIconPath": "images/aixin1.png"
+    }
+    ]
+  }
+}
